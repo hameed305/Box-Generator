@@ -1,0 +1,17 @@
+{
+  "name": "box-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
