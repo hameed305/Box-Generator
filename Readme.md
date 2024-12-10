@@ -1,3 +1,6 @@
+##### Preview the deployed app
+<a href="https://simple-box-generator.vercel.app/">Preview app</a>
+
 ## The First Project in Web Development Journey
 
 ##### i have created this project using HTML, tailwindcss and js just foucs and targeted the javascript . I have used the loop, functions, event listner, fetch api, and other javascript features.
@@ -19,3 +22,4 @@ Install the dependencies using the command
 run the project simple with any extension like live server, liver preview and more
 
 <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Liver server</a>
+
