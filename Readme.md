@@ -19,3 +19,4 @@ Install the dependencies using the command
 run the project simple with any extension like live server, liver preview and more
 
 <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Liver server</a>
+<a href="https://simple-box-generator.vercel.app/">Preview app</a>
