@@ -10,7 +10,7 @@ In this project on button clicking you can generate the box or card with random 
 ## clone the project
 
 Clone the project using the command
-`git clone https://github.com/hameed305/Simple_Box_Generator__project.git`
+`https://github.com/hameed305/Box-Generator.git`
 
 ## Install the dependencies
 
