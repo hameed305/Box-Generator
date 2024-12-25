@@ -1,5 +1,3 @@
-##### Preview the deployed app
-<a href="https://simple-box-generator.vercel.app/">Preview app</a>
 
 ## The First Project in Web Development Journey
 
