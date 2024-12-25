@@ -1,6 +1,18 @@
 let box_container = document.querySelector("#box_container");
 let box_generate = document.querySelector("#box_generate");
 
+const options = {
+  method: 'POST',
+  headers: { 'Content-Type': '<content-type>', 'x-freepik-api-key': '<FPSX748fe83d8d0945f4a38f631e9e651876>' },
+  body: '{"prompt":"<string>","resolution":"2k","aspect_ratio":"square_1_1","realism":true,"creative_detailing":33,"engine":"automatic","fixed_generation":false,"webhook_url":"https://httpbin.org/post","filter_nsfw":true,"styling":{"styles":[{"name":"<string>","strength":100}],"characters":[{"id":"<string>","strength":100}]}}'
+};
+
+fetch('https://api.freepik.com/v1/ai/mystic', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
+
+
 let img_arr = [
   "https://img.freepik.com/free-psd/3d-rendering-hair-style-avatar-design_23-2151869153.jpg?ga=GA1.1.885243126.1732395768&semt=ais_hybrid",
   "https://img.freepik.com/free-psd/3d-rendering-hair-style-avatar-design_23-2151869165.jpg?ga=GA1.1.885243126.1732395768&semt=ais_hybrid",
@@ -59,6 +71,10 @@ async function comments() {
 comments()
 
 box_generate.addEventListener("click", function () {
+
+  let Number_box = document.querySelector(".number_box")
+  Number_box.innerHTML = Array.from(box_container.children).length
+
   let random_name = user_names[Math.floor(Math.random() * user_names.length)];
 
   let random_img = img_arr[Math.floor(Math.random() * img_arr.length - 1)];
